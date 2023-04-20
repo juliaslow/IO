@@ -1,0 +1,5 @@
+Na początku po sklonowaniu repozytorium ( git clone link) z gitHuba wszystkie pliki są śledzone oraz niezmodyfikowane, po zmianie w jakimkolwiek pliku Git automatycznie wykryje te zmiany które potem możemy umieścić w poczekalni następnie pliki w poczekalni można zatwierdzić(commit) i cały cykl powtarza się od początku. 
+Polecenie git status pokazuje pliki znajdujące się w poczekalni. 
+Polecenie git add dodaje plik do poczekalni 
+Polecenie git commit -m zatwierdza zmiany , gdzie -m oznacza wiadomość, która opisuje, co zostało zmienione w tym commicie. Wiadomość ta jest ważna, ponieważ później można łatwo przeglądać historię zmian i zobaczyć, co dokładnie zostało zrobione w każdym commicie.
+Po zatwierdzeniu zmian commitem, można je wysłać do repozytorium na GitHubie za pomocą polecenia git push. W ten sposób inni użytkownicy mogą zobaczyć wprowadzone zmiany i pracować nad nimi dalej.
